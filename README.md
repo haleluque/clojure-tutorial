@@ -1,44 +1,44 @@
-# tutorial
+# Lagunaje Clojure Programming Introduction
 
-FIXME: description
+Welcome to the Lagunaje guide to Clojure programming! This resource is designed to help learners explore the fundamentals of functional programming using Clojure—a powerful, expressive language built on the JVM.
 
-## Installation
+Whether you're new to Clojure or looking to reinforce your skills, this guide walks through essential language features with practical examples and exercises.
 
-Download from https://example.com/FIXME.
+---
 
-## Usage
+## 📚 Topics Covered
 
-FIXME: explanation
+This introduction includes hands-on exploration of the following Clojure concepts:
 
-    $ java -jar tutorial-0.1.0-standalone.jar [args]
+- **Agents** – Asynchronous state management for background tasks
+- **Atoms** – Synchronous, independent state updates
+- **Conditionals** – `if`, `cond`, `case`, and branching logic
+- **Destructuring** – Elegant unpacking of maps, vectors, and sequences
+- **Exceptions** – Error handling with `try`, `catch`, and `finally`
+- **Functions** – Defining and composing reusable logic
+- **Loops** – Iteration with `loop/recur`, `for`, and `doseq`
+- **Macros** – Metaprogramming with compile-time code transformation
+- **Namespaces** – Organizing code and managing dependencies
+- **References** – Overview of `ref`, `atom`, `agent`, and `var`
+- **Sequences** – Lazy and eager sequence processing
+- **Structured Maps** – Using `defstruct` and idiomatic map patterns
+- **Watchers** – Observing state changes in reference types
 
-## Options
+---
 
-FIXME: listing of options this app accepts.
+## 🧪 Exercises
 
-## Examples
+This guide includes a couple of practical exercises to reinforce learning
 
-...
+---
 
-### Bugs
+## 🚀 Getting Started
 
-...
+To run the examples and exercises:
 
-### Any Other Sections
-### That You Think
-### Might be Useful
+1. Install [Clojure CLI tools](https://clojure.org/guides/getting_started)
+2. Clone this repository
+3. Run the REPL: `clj`
+4. Load files with `(load-file "src/tutorial/Exercise1.clj")`
 
-## License
-
-Copyright © 2025 FIXME
-
-This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-https://www.eclipse.org/legal/epl-2.0.
-
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.
+---
